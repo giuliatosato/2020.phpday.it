@@ -1,0 +1,56 @@
+@include block ('scholarships-intro') {
+  margin-top: s(8);
+
+  @include element ('title') {
+    @include title-uppercase;
+    color: $color-text-info;
+    font-size: 40px;
+    line-height: 1;
+    margin: auto;
+    margin-bottom: s(4);
+    margin-top: s(-6);
+    text-align: center;
+    z-index: -1;
+
+    @include media ('>=mobile-large') {
+      font-size: 60px;
+      margin-top: s(-8);
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 90px;
+      margin-top: s(-10);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 125px;
+      user-select: none;
+    }
+  }
+
+  @include element ('question') {
+    @include where-when;
+    font-size: 18px;
+    margin-bottom: s(4);
+    margin-top: s(-3);
+    text-align: center;
+
+    @include media ('>=mobile-large') {
+      font-size: 24px;
+      margin-top: s(-8);
+      text-align: left;
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 28px;
+      margin-top: s(-9);
+      text-align: left;
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 36px;
+      margin-top: s(-11);
+      text-align: left;
+    }
+  }
+}

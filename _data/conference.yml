@@ -1,0 +1,24 @@
+name: phpDay
+og_image: https://2020.phpday.it/img/themes/phpday/intro.svg
+slug: phpday
+url: https://2020.phpday.it
+where_when: Verona, May 14th-15th 2020
+year: 2020
+since: 2012
+call_for_paper_url: https://cfp.phpday.it/
+call_for_paper: true
+ws_available: false
+talks_available: false
+schedule_available: false
+scholarship_available: true
+
+iubenda:
+  cookiePolicyId: 55680650
+  siteId: 1063123
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: phpday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-56R9R8P

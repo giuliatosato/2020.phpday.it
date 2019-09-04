@@ -1,0 +1,11 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+#-
+#    id: alessandro-lai
+#    description:
+#    image: alessandro-lai.jpg
+#    first_name: Alessandro
+#    last_name: Lai
+#    twitter: AlessandroLai
+list:
+

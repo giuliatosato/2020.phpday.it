@@ -1,0 +1,13 @@
+.sponsors__pugs {
+  background-color: $color-background-sponsor;
+  padding: 10px;
+}
+
+.sponsors__pugs a {
+  float: left;
+  width: 8em;
+}
+
+.sponsors__pugs a:nth-child(even) {
+  margin: 7.02em -3.9em 0;
+}
