@@ -81,7 +81,10 @@ silver:
     - 3 tickets with 10% discount
   max: 32
   list:
-
+    -
+      url: https://www.voxnest.com/?utm_source=phpday
+      image: voxnest.svg 
+      
 bronze:
   price: € 500
   offer:
