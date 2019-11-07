@@ -82,6 +82,9 @@ silver:
   max: 32
   list:
     -
+      url: https://it.siteground.com/?utm_source=phpday
+      image: siteground.svg
+    -
       url: https://www.voxnest.com/?utm_source=phpday
       image: voxnest.svg 
       
