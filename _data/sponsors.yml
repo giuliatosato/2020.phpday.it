@@ -51,8 +51,6 @@ platinum:
   max: 4
   list:
     -
-      url: http://www.flowing.it/?utm_source=phpday
-      image: flowing.svg
 
 gold:
   price: € 1,500
