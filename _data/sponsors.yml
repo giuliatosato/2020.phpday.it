@@ -86,7 +86,7 @@ silver:
       url: https://www.voxnest.com/?utm_source=phpday
       image: voxnest.svg 
     -
-      url: https://www.madisoft.it/?utm_source=phpday
+      url: https://labs.madisoft.it/symfony-developer/?utm_source=phpday
       image: madisoft.svg 
       
 bronze:
