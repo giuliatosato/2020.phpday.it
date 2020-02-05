@@ -8,4 +8,99 @@
 #    last_name: Lai
 #    twitter: AlessandroLai
 list:
-
+  -
+    id: arnout-boks
+    image: arnout-boks.jpg
+    first_name: Arnout
+    last_name: Boks
+    twitter: arnoutboks
+  -
+    id: bruce-dou
+    description:
+    image: bruce-dou.jpg
+    first_name: Bruce
+    last_name: Dou
+    twitter: doubaokun
+  -
+    id: andreas-heigl
+    description:
+    image: andreas-heigl.jpg
+    first_name: Andreas
+    last_name: Heigl
+    twitter: heiglandreas
+  -
+    id: chris-holland
+    image: chris-holland.jpg
+    first_name: Chris
+    last_name: Holland
+    twitter: chrisholland
+  -
+    id: alessandro-lai
+    description:
+    image: alessandro-lai.jpg
+    first_name: Alessandro
+    last_name: Lai
+    twitter: AlessandroLai
+  -
+    id: christian-luck
+    description:
+    image: christian-luck.jpg
+    first_name: Christian
+    last_name: Lück
+    twitter: another_clue
+  -
+    id: ivo-lukac
+    description:
+    image: ivo-lukac.jpg
+    first_name: Ivo
+    last_name: Lukac
+    twitter: ilukac
+  -
+    id: ondrej-machulda
+    description:
+    image: ondrej-machulda.jpg
+    first_name: Ondrej
+    last_name: Machulda
+    twitter: OndraM
+  -
+    id: derick-rethans
+    description:
+    image: derick-rethans.jpg
+    first_name: Derick
+    last_name: Rethans
+    twitter: derickr
+  -
+    id: michelle-sanver
+    description:
+    image: michelle-sanver.jpg
+    first_name: Michelle
+    last_name: Sanver
+    twitter: michellesanver
+  -
+    id: miro-svrtan
+    description:
+    image: miro-svrtan.jpg
+    first_name: Miro
+    last_name: Svrtan
+    twitter: msvrtan
+  -
+    id: james-titcumb
+    description:
+    image: james-titcumb.jpg
+    first_name: James
+    last_name: Titcumb
+    twitter: asgrim
+  -
+    id: alexandra-white
+    description:
+    image: alexandra-white.jpg
+    first_name: Alexandra
+    last_name: White
+    twitter: heyawhite
+  -
+    id: boyan-yordanov
+    description:
+    image: boyan-yordanov.jpg
+    first_name: Boyan
+    last_name: Yordanov
+    twitter: specter_bg
