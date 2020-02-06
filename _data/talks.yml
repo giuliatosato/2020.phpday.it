@@ -1,5 +1,194 @@
-#-
-#  speaker_id: speaker-id
-#  keynote: true
-#  title: Title here
-#  extract: >
+-
+  speaker_id: chris-holland
+  keynote: true
+  title: Taming Change
+  extract: >
+    Change is Software's greatest threat, and its defining characteristic. Disagree? How's that Agile Transformation
+    going for you? We will explore this cognitively-dissonant statement as we investigate the challenges that we've
+    faced, how we continue to fail to address them, and what we can do tame this raucous beast. To do this, we will
+    study the most ambitious, most expensive computing system built by the United States military in the post cold-war
+    era of the 1950s, looking at the challenges they faced, and the choices they made to overcome them. We will then
+    explore how many of those choices were carried-over to modern-day software engineering throughout the 1990s until
+    we, as an industry, decided to free ourselves from the shackles of certain self-imposed limitations. In doing so,
+    we got ourselves into different sorts of troubles. We will explore what they are and how some of us have chosen to
+    overcome them.
+-
+  speaker_id: arnout-boks
+  tutorial: true
+  title: Metrics-driven refactoring and quality
+  extract: >
+    You may have seen a talk on code metrics, or know how cyclomatic complexity is calculated. You may have a tool in
+    your CI pipeline that calculates metrics on your code, only to never look at them. Metrics sound useful in theory,
+    but how can we actually make use of them in our day-to-day work? In this workshop we will discover in practice how
+    metrics can guide us when refactoring a codebase. We will see how metrics can show us which parts of the code to
+    focus our attention on and what kind of refactoring to apply to them. We’ll let metrics drive our improvements -
+    not for the sake of the numbers, but to actually improve the maintainability and quality of our code.
+-
+  speaker_id: james-titcumb
+  tutorial: true
+  title: Best practices for crafting high quality PHP apps
+  extract: >
+    This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC.
+    Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution
+    is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review
+    and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive,
+    actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some
+    aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is
+    made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development
+    life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed,
+    well tested and lead to the ultimate goal of confidence in delivering stable software.
+-
+  speaker_id: alessandro-lai
+  title: Kubernetes for PHP developers
+  extract: >
+    Docker has slowly won the hearth of many developers as a good, flexible and reliable tool to build local environments
+    for web apps, but containers in production were still a myth for a long time. Now, with the advent of Kubernetes
+    (k8s), deploying (PHP) applications with containers is the new shiny tool, but the huge amount of new concepts and
+    technologies scares a lot of people away. In this talk we will walk through the basic concepts and tools that a PHP
+    developer needs to know about when deploying to a k8s cluster, so that you'll have enough to understand that this
+    new world is not so scary, and hopefully build your own first automatic deployment.
+-
+  speaker_id: derick-rethans
+  title: The La(te)st PHP 7 — What's new in PHP 7.4
+  extract: >
+    During this presentation, we are going to look at the new features that have been introduced in PHP 7.4. Join me to
+    have a look at how the type system is strengthened with typed properties and co- and contra-variance of methods,
+    what changes to operator precedence are, and which new features, such as pre-loading classes, are going to be
+    introduced. At the end you will have a good understand about all the new and exciting features in the PHP 7.4
+    release, and a head's up what is coming in PHP 8
+-
+  speaker_id: sabine-wojcieszak
+  title: Don´t lose the heart of Agile and Devops!
+  extract: >
+    Agile and Devops have become extremely popular during the last years. Especially Agile has also scaled and is not
+    only used in software industries nowadays. The so called VUCA world with its ever-growing complexity as well as the
+    digitization and digital transformation made Agile as well as Devops somehow a “Must have” hype. And that´s good,
+    because using those approaches makes work itself and its outcomes better with more happiness – as long as you have
+    understood the basic ideas behind it. But we need to be careful, as those principles and values get more and more
+    lost – even in software industries! What happens if you ask people if they have ever read the Agile Manifesto with
+    its twelve principles behind? And have you ever asked a team, doing some kind of agile stuff, what those principles
+    mean to them and how they can apply them to their daily work or what CALMS is standing for? As very frequently the
+    answers are “No”, I created an exercise for teams to challenge the Agile Manifesto, its principles and the meaning
+    of CALMS as an ongoing process for retrospectives or as a part of the team or project kick-off. This talk will
+    introduce you to this exercise and the experiences made with it. In Agile but even more in Devops we all strive for
+    having a better understanding of what we are doing – so why not also taking care of understanding Agile and Devops
+    itself just to get out the most possible benefit and saying goodbye to the Agile Theatre or reducing Devops to just
+    having a delivery pipeline?
+-
+  speaker_id: alexandra-white
+  title: "Technically Speaking: Improve your code with documentation"
+  extract: >
+    Well written instructions, informative comments throughout code, clearly scripted screencasts, and smart information
+    architecture can take complex code and make it accessible to new developers. In the age of code sharing, this can be
+    imperative to teaching the next generation of developers, passing along your code to successors, and help you better
+    understand your own work. When I was an engineer, helpful READMEs and other docs created by my colleagues were crucial
+    to quick onboarding and coming back to old products. Now, as a full time technical writer, I rely on our engineers
+    to be able to concisely explain how products work. From these experiences, it is essential that developers are
+    empowered to write documentation. In this talk we’ll discuss: + Why writing docs is important for engineers +
+    Understanding your audience + Optimizing for the deliverable: READMEs, code comments, tutorials release notes, and
+    more We’ll also cover some tips for communicating about your past work to your future self.
+-
+  speaker_id: andreas-heigl
+  title: How to tame a 🦄
+  extract: >
+    You've got strange characters like "?" or "Ã¶" display in your application? Yes, handling non-English characters in
+    application code, files and databases can be a challenge, to say the least. Whether that's German Umlauts, Cyrillic
+    letters, Asian Glyphs or Emojis: It's always a mess in an international application. In this session you will see
+    why that is and how handling characters evolved in computing. You will also see how handling characters in
+    applications and databases can be done less painfully. And don't worry when EBCDIC, BOM or ISO-8859-7 are Greek to
+    you and your Unicode is a bit rusty: we'll have a look at them too!
+-
+  speaker_id: chris-holland
+  title: Leveraging Typed Exceptions for Cleaner Error Handling
+  extract: >
+    Harnessing Errors & Edge-Cases with Ease & Elegance. Imagine handling error conditions and unexpected edge-cases
+    with code that is easier to read, maintain &amp; extend. The temptation is real. We create methods that return an
+    array of objects, or "false" if nothing was found. Or "null". We might further "signal" unexpected results or
+    error-conditions with integer values. It then becomes the responsibility of consumers of these methods, to properly
+    interpret what "false", "null", or "-500" mean. As a result, we produce code that is difficult to read, maintain
+    and extend. Exceptions are seldom leveraged, and most often thought of as objects thrown by some frameworks for
+    instrumentation. When properly leveraged, they however offer an opportunity to manage unexpected and edge-case
+    behavior at various layers of our applications, with elegant control flows. By leveraging your language's Exceptions
+    alongside its "Type System", we can create elegant, flexible and advanced handling of Error conditions, which will
+    promote code that is easier to work with. What you'll learn from this talk:
+    * use-cases for leveraging exceptions, recognizing patterns where they would be a better fit
+    * how exceptions allow us to signal errors with less code
+    * how exceptions allow us to handle errors with less code
+    * how exceptions can help us build more robust systems with far less technical debt
+-
+  speaker_id: michelle-sanver
+  title: "Advanced Serializing in PHP: Speed it up!"
+  extract: >
+    Building an API for the biggest retailer of Switzerland has some challenges. We are an API with a lot of extremely
+    complex data. Our bottleneck is and always has been serializing. It has been a long journey for us to get the most
+    performance out of this. We are proud of what we’ve accomplished.
+    Let me first share what advanced serialization is, and what tools there are out there to solve any needs you may
+    have, we tried them all.
+    Then I will share our personal journey trying them out. And in the end: A colleague wrote php-to-go so that we
+    could GO beyond PHP, using PHP and GoLang together, for an amazing performance boost.
+    (Spoiler alert: We found a solution in PHP that we ended up with, and open sourced)
+-
+  speaker_id: miro-svrtan
+  title: Tools and traits to keep your code at level
+  extract: >
+    It's really hard to avoid broken window syndrome when developing: legacy code from ages might not be up to standards
+    of today and often developers use it as excuse when developing new features. By introducing some code style
+    enforcement tools we can get rid of 'there should be a space there' code reviews, while static analysis tools can
+    help us not only locate some possible bugs in existing code but help us avoid new ones as well. But it's not all in
+    the toolset, we need to build some traits in our teams to understand the importance of good code quality and
+    keeping it on the level as we go.
+-
+  speaker_id: ondrej-machulda
+  title: End-to-end testing - it has never been easier!
+  extract: >
+    Automated end-to-end testing of web application in a real browser is nothing new - [Selenium](https://selenium.dev/),
+    the industry standard for browser automation has been there for a while. But even though not many projects are doing
+    it - the truth is that up until now, it was not that easy: it was hard to write good tests and to set up the testing
+    environment, tests were unstable and cross-browser compatibility (ie. running the same tests in different browsers)
+    was only theoretical. However things moved forward recently: many new tools emerged in the PHP ecosystem (like
+    Symfony Panther, Laravel Dusk or Codeception), Docker virtualization brought the possibility of simplifying the
+    infrastructure needed for running the tests as part of continuous integration pipeline and Selenium has become
+    official W3C WebDriver standard supported by all major browsers. I will show you how to take advantage of these
+    now possibilities (including Docker), how easy it is nowadays to start with end-to-end testing and I will also
+    mention tools you can choose from to do so. Because the golden age of end-to-end testing is finally here!
+-
+  speaker_id: christian-luck
+  title: Getting started with ReactPHP – Pushing real-time data to the browser
+  extract: >
+    Think about PHP for a few seconds… What came to mind? It’s very likely you thought about your average product
+    catalog, a blogging platform, or how the platform is inferior to things like Node.js. But wait, it’s 2020! What
+    if I told you PHP’s huge ecosystem has way more to offer and PHP is not inferior at all to its evil cousin Node.js?
+    In this talk you will learn about the core concepts of async PHP and why you too should care about ReactPHP being a
+    real thing. The talk has a strong focus on sparking the idea that PHP can be way faster and more versatile than you
+    probably thought. Bring along an open mind, and through lots of interesting examples and live demos learn why what
+    sounds crazy at first might soon be a valuable addition in your toolbox. You’re already familiar with PHP and want
+    to learn what ReactPHP is all about? Then this talk is for you! We will start from scratch and see what it takes to
+    build an application that pushes data from your command line to your browser in real-time. You’re invited to join
+    the interactive demos or lean back and learn more about why an event-driven approach might be the next big thing in
+    making your application faster and more responsive.
+-
+  speaker_id: bruce-dou
+  title: Async and Concurrency with Coroutines
+  extract: >
+    PHP Swoole has gain the traction during the past several years. More and more people are interested with started to
+    try PHP Swoole and use coroutine in PHP to build high performance, large scale web services, online game,
+    micro-services. This talk will introduce how to adopt PHP Swoole in real world projects and solve real world
+    problems better. How to develop concurrent based application with Coroutines.
+-
+  speaker_id: boyan-yordanov
+  title: REST More With JSON-API
+  extract: >
+    Have you been in long meetings trying to decide how your API should look like: what goes in the response, what
+    format the errors will have, pagination, filtering options? Have you worked with (or built) APIs that return
+    inconsistent status codes? What about hypermedia? While new solutions have emerged for specific use cases, what
+    if there was a specification that can help you build APIs that are both easier to maintain and to consume? In this
+    talk we will explore what makes json:api a good choice and the tools we have available for it.
+-
+  speaker_id: ivo-lukac
+  title: Learn to appreciate legacy
+  extract: >
+    There is a lot of frustration among developers when they need to work with the old code, usually called “legacy”.
+    But there is way more legacy code running than non-legacy out there in the world. Developers like starting from
+    scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to
+    start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that
+    new code will do a better job.
