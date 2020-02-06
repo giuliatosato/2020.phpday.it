@@ -98,6 +98,13 @@ list:
     last_name: White
     twitter: heyawhite
   -
+    id: sabine-wojcieszak
+    description:
+    image: sabine-wojcieszak.jpg
+    first_name: Sabine
+    last_name: Wojcieszak
+    twitter: SabineBendixen
+  -
     id: boyan-yordanov
     description:
     image: boyan-yordanov.jpg
