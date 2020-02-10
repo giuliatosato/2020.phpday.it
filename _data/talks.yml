@@ -24,6 +24,16 @@
     focus our attention on and what kind of refactoring to apply to them. We’ll let metrics drive our improvements -
     not for the sake of the numbers, but to actually improve the maintainability and quality of our code.
 -
+  speaker_id: max-rosin
+  tutorial: true
+  title: Deploying your first Micro-Service application to Kubernetes
+  extract: >
+    Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots
+    of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning
+    curve. In this workshop you will learn how to deploy your first application which consists of multiple Micro-Services
+    to Kubernetes and learn how you can use persistent storage and service meshes and set up sensible monitoring and
+    logging tooling.
+-
   speaker_id: james-titcumb
   tutorial: true
   title: Best practices for crafting high quality PHP apps
@@ -192,3 +202,33 @@
     scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to
     start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that
     new code will do a better job.
+-
+  speaker_id: joao-domingos
+  title: Keeping a 10-Year-Old Codebase Alive and Rockin'
+  extract: >
+    From Commodity Hardware in the closet to 1,000 requests per second: Keeping a 10-Year-Old Codebase Alive and Rockin'
+    Voxnest is an audio technology company, specializing in podcasting solutions. Voxnest’s suite of tools allows
+    publishers and advertisers alike to easily create, distribute, manage and monetize content. One of those tools
+    is Spreaker. The Spreaker platform serves audio files, with dynamically stitched ads, based on targeting settings
+    and a listener’s profile, handling up to 1,000 req/s. Spreaker was founded 10 years ago, and the world has changed
+    dramatically since then. Going from in-house hardware, to the cloud, up to serverless, and through a seamless PHP 7
+    upgrade, the Spreaker team had to solve many issues in order to keep the codebase alive and clean. In addition to
+    those changes, the company grew, the codebase size increased, and the request rate and numbers also skyrocketed.
+    So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
+    talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
+    through time and evolution.
+-
+  speaker_id: cristiano-mazzarini
+  title: Keeping a 10-Year-Old Codebase Alive and Rockin'
+  extract: >
+    From Commodity Hardware in the closet to 1,000 requests per second: Keeping a 10-Year-Old Codebase Alive and Rockin'
+    Voxnest is an audio technology company, specializing in podcasting solutions. Voxnest’s suite of tools allows
+    publishers and advertisers alike to easily create, distribute, manage and monetize content. One of those tools
+    is Spreaker. The Spreaker platform serves audio files, with dynamically stitched ads, based on targeting settings
+    and a listener’s profile, handling up to 1,000 req/s. Spreaker was founded 10 years ago, and the world has changed
+    dramatically since then. Going from in-house hardware, to the cloud, up to serverless, and through a seamless PHP 7
+    upgrade, the Spreaker team had to solve many issues in order to keep the codebase alive and clean. In addition to
+    those changes, the company grew, the codebase size increased, and the request rate and numbers also skyrocketed.
+    So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
+    talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
+    through time and evolution.

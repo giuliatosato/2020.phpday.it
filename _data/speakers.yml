@@ -15,6 +15,13 @@ list:
     last_name: Boks
     twitter: arnoutboks
   -
+    id: joao-domingos
+    description:
+    image: joao-domingos.jpg
+    first_name: João
+    last_name: Domingos
+    twitter: joaodomingos
+  -
     id: bruce-dou
     description:
     image: bruce-dou.jpg
@@ -63,12 +70,26 @@ list:
     last_name: Machulda
     twitter: OndraM
   -
+    id: cristiano-mazzarini
+    description:
+    image: cristiano-mazzarini.jpg
+    first_name: Cristiano
+    last_name: Mazzarini
+    twitter: _mazzcris
+  -
     id: derick-rethans
     description:
     image: derick-rethans.jpg
     first_name: Derick
     last_name: Rethans
     twitter: derickr
+  -
+    id: max-rosin
+    description:
+    image: max-rosin.jpg
+    first_name: Max
+    last_name: Rosin
+    twitter: ekeih
   -
     id: michelle-sanver
     description:
