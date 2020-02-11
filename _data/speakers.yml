@@ -55,6 +55,13 @@ list:
     last_name: Lai
     twitter: AlessandroLai
   -
+    id: michael-lochemem
+    description:
+    image: michael-lochemem.jpg
+    first_name: Michael
+    last_name: Lochemem
+    twitter: agiroloki
+  -
     id: christian-luck
     description:
     image: christian-luck.jpg

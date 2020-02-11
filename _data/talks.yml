@@ -47,56 +47,40 @@
     made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development
     life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed,
     well tested and lead to the ultimate goal of confidence in delivering stable software.
+
 -
-  speaker_id: alessandro-lai
-  title: Kubernetes for PHP developers
+  speaker_id: mark-baker
+  title: Looping the Loop with SPL Iterators
   extract: >
-    Docker has slowly won the hearth of many developers as a good, flexible and reliable tool to build local environments
-    for web apps, but containers in production were still a myth for a long time. Now, with the advent of Kubernetes
-    (k8s), deploying (PHP) applications with containers is the new shiny tool, but the huge amount of new concepts and
-    technologies scares a lot of people away. In this talk we will walk through the basic concepts and tools that a PHP
-    developer needs to know about when deploying to a k8s cluster, so that you'll have enough to understand that this
-    new world is not so scary, and hopefully build your own first automatic deployment.
+    An often-forgotten part of PHP, just looking at the content list for the Standard PHP Library (SPL) Iterators in the
+    PHP Docs can seem very confusing, and even reading the documentation on those Iterators doesn't really explain when
+    or how they should be used. But it's time to bring SPL Iterators out of the shadows with some real-world examples,
+    explaining how they work, and how they can reduce complexity and improve readability of our code. So join me on a
+    roller-coaster ride as we loop through some of the most useful Iterators in the SPL toolbox, and learn how we can
+    use their power and features to improve our code.
 -
-  speaker_id: derick-rethans
-  title: The La(te)st PHP 7 — What's new in PHP 7.4
+  speaker_id: joao-domingos
+  title: Keeping a 10-Year-Old Codebase Alive and Rockin'
   extract: >
-    During this presentation, we are going to look at the new features that have been introduced in PHP 7.4. Join me to
-    have a look at how the type system is strengthened with typed properties and co- and contra-variance of methods,
-    what changes to operator precedence are, and which new features, such as pre-loading classes, are going to be
-    introduced. At the end you will have a good understand about all the new and exciting features in the PHP 7.4
-    release, and a head's up what is coming in PHP 8
+    From Commodity Hardware in the closet to 1,000 requests per second: Keeping a 10-Year-Old Codebase Alive and Rockin'
+    Voxnest is an audio technology company, specializing in podcasting solutions. Voxnest’s suite of tools allows
+    publishers and advertisers alike to easily create, distribute, manage and monetize content. One of those tools
+    is Spreaker. The Spreaker platform serves audio files, with dynamically stitched ads, based on targeting settings
+    and a listener’s profile, handling up to 1,000 req/s. Spreaker was founded 10 years ago, and the world has changed
+    dramatically since then. Going from in-house hardware, to the cloud, up to serverless, and through a seamless PHP 7
+    upgrade, the Spreaker team had to solve many issues in order to keep the codebase alive and clean. In addition to
+    those changes, the company grew, the codebase size increased, and the request rate and numbers also skyrocketed.
+    So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
+    talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
+    through time and evolution.
 -
-  speaker_id: sabine-wojcieszak
-  title: Don´t lose the heart of Agile and Devops!
+  speaker_id: bruce-dou
+  title: Async and Concurrency with Coroutines
   extract: >
-    Agile and Devops have become extremely popular during the last years. Especially Agile has also scaled and is not
-    only used in software industries nowadays. The so called VUCA world with its ever-growing complexity as well as the
-    digitization and digital transformation made Agile as well as Devops somehow a “Must have” hype. And that´s good,
-    because using those approaches makes work itself and its outcomes better with more happiness – as long as you have
-    understood the basic ideas behind it. But we need to be careful, as those principles and values get more and more
-    lost – even in software industries! What happens if you ask people if they have ever read the Agile Manifesto with
-    its twelve principles behind? And have you ever asked a team, doing some kind of agile stuff, what those principles
-    mean to them and how they can apply them to their daily work or what CALMS is standing for? As very frequently the
-    answers are “No”, I created an exercise for teams to challenge the Agile Manifesto, its principles and the meaning
-    of CALMS as an ongoing process for retrospectives or as a part of the team or project kick-off. This talk will
-    introduce you to this exercise and the experiences made with it. In Agile but even more in Devops we all strive for
-    having a better understanding of what we are doing – so why not also taking care of understanding Agile and Devops
-    itself just to get out the most possible benefit and saying goodbye to the Agile Theatre or reducing Devops to just
-    having a delivery pipeline?
--
-  speaker_id: alexandra-white
-  title: "Technically Speaking: Improve your code with documentation"
-  extract: >
-    Well written instructions, informative comments throughout code, clearly scripted screencasts, and smart information
-    architecture can take complex code and make it accessible to new developers. In the age of code sharing, this can be
-    imperative to teaching the next generation of developers, passing along your code to successors, and help you better
-    understand your own work. When I was an engineer, helpful READMEs and other docs created by my colleagues were crucial
-    to quick onboarding and coming back to old products. Now, as a full time technical writer, I rely on our engineers
-    to be able to concisely explain how products work. From these experiences, it is essential that developers are
-    empowered to write documentation. In this talk we’ll discuss: + Why writing docs is important for engineers +
-    Understanding your audience + Optimizing for the deliverable: READMEs, code comments, tutorials release notes, and
-    more We’ll also cover some tips for communicating about your past work to your future self.
+    PHP Swoole has gain the traction during the past several years. More and more people are interested with started to
+    try PHP Swoole and use coroutine in PHP to build high performance, large scale web services, online game,
+    micro-services. This talk will introduce how to adopt PHP Swoole in real world projects and solve real world
+    problems better. How to develop concurrent based application with Coroutines.
 -
   speaker_id: andreas-heigl
   title: How to tame a 🦄
@@ -126,6 +110,96 @@
     * how exceptions allow us to handle errors with less code
     * how exceptions can help us build more robust systems with far less technical debt
 -
+  speaker_id: alessandro-lai
+  title: Kubernetes for PHP developers
+  extract: >
+    Docker has slowly won the hearth of many developers as a good, flexible and reliable tool to build local environments
+    for web apps, but containers in production were still a myth for a long time. Now, with the advent of Kubernetes
+    (k8s), deploying (PHP) applications with containers is the new shiny tool, but the huge amount of new concepts and
+    technologies scares a lot of people away. In this talk we will walk through the basic concepts and tools that a PHP
+    developer needs to know about when deploying to a k8s cluster, so that you'll have enough to understand that this
+    new world is not so scary, and hopefully build your own first automatic deployment.
+-
+  speaker_id: michael-lochemem
+  title: Functional Programming in PHP
+  extract: >
+    PHP is a multi-paradigm scripting language with a large following. This subscribership, a product of twenty-two years
+    of simplicity and evolution has not only produced more robust versions of PHP but also more potent community libraries.
+    First-class function support implies a malleability of functions suitable for higher-order function creation – a
+    cornerstone functional programming principle. Furthermore, the interoperability of PHP’s community modules hosted on
+    Packagist and installable via Composer, suggests a profound usage of PHP packages among which are functional
+    programming libraries such as bingo-functional and funcitonal-php. Functional programming is the current zeitgeist
+    in programming and has pervaded through the programming realm. Irrespective of preferred programming language, the
+    tenets of immutability, referential transparency as well as function purity have found ways to feature prominently
+    in programming conversations. The simplicity and cognitive burden reducing capabilities of said principles add to
+    the allure of functional programming – therein lies the gist of my proposed presentation, a simple primer on
+    functional programming in PHP. My talk, titled Functional Programming in PHP, is another in a long line of trials
+    at effectively propagating Functional Programming knowledge for PHP audiences. I will, in the time afforded to me,
+    attempt to discuss PHP's first class function citizenry, immutability, pure functions, functional programming
+    techniques, as well as simple, real-world applications of Functional Programming.
+-
+  speaker_id: christian-luck
+  title: Getting started with ReactPHP – Pushing real-time data to the browser
+  extract: >
+    Think about PHP for a few seconds… What came to mind? It’s very likely you thought about your average product
+    catalog, a blogging platform, or how the platform is inferior to things like Node.js. But wait, it’s 2020! What
+    if I told you PHP’s huge ecosystem has way more to offer and PHP is not inferior at all to its evil cousin Node.js?
+    In this talk you will learn about the core concepts of async PHP and why you too should care about ReactPHP being a
+    real thing. The talk has a strong focus on sparking the idea that PHP can be way faster and more versatile than you
+    probably thought. Bring along an open mind, and through lots of interesting examples and live demos learn why what
+    sounds crazy at first might soon be a valuable addition in your toolbox. You’re already familiar with PHP and want
+    to learn what ReactPHP is all about? Then this talk is for you! We will start from scratch and see what it takes to
+    build an application that pushes data from your command line to your browser in real-time. You’re invited to join
+    the interactive demos or lean back and learn more about why an event-driven approach might be the next big thing in
+    making your application faster and more responsive.
+-
+  speaker_id: ivo-lukac
+  title: Learn to appreciate legacy
+  extract: >
+    There is a lot of frustration among developers when they need to work with the old code, usually called “legacy”.
+    But there is way more legacy code running than non-legacy out there in the world. Developers like starting from
+    scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to
+    start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that
+    new code will do a better job.
+-
+  speaker_id: ondrej-machulda
+  title: End-to-end testing - it has never been easier!
+  extract: >
+    Automated end-to-end testing of web application in a real browser is nothing new - [Selenium](https://selenium.dev/),
+    the industry standard for browser automation has been there for a while. But even though not many projects are doing
+    it - the truth is that up until now, it was not that easy: it was hard to write good tests and to set up the testing
+    environment, tests were unstable and cross-browser compatibility (ie. running the same tests in different browsers)
+    was only theoretical. However things moved forward recently: many new tools emerged in the PHP ecosystem (like
+    Symfony Panther, Laravel Dusk or Codeception), Docker virtualization brought the possibility of simplifying the
+    infrastructure needed for running the tests as part of continuous integration pipeline and Selenium has become
+    official W3C WebDriver standard supported by all major browsers. I will show you how to take advantage of these
+    now possibilities (including Docker), how easy it is nowadays to start with end-to-end testing and I will also
+    mention tools you can choose from to do so. Because the golden age of end-to-end testing is finally here!
+-
+  speaker_id: cristiano-mazzarini
+  title: Keeping a 10-Year-Old Codebase Alive and Rockin'
+  extract: >
+    From Commodity Hardware in the closet to 1,000 requests per second: Keeping a 10-Year-Old Codebase Alive and Rockin'
+    Voxnest is an audio technology company, specializing in podcasting solutions. Voxnest’s suite of tools allows
+    publishers and advertisers alike to easily create, distribute, manage and monetize content. One of those tools
+    is Spreaker. The Spreaker platform serves audio files, with dynamically stitched ads, based on targeting settings
+    and a listener’s profile, handling up to 1,000 req/s. Spreaker was founded 10 years ago, and the world has changed
+    dramatically since then. Going from in-house hardware, to the cloud, up to serverless, and through a seamless PHP 7
+    upgrade, the Spreaker team had to solve many issues in order to keep the codebase alive and clean. In addition to
+    those changes, the company grew, the codebase size increased, and the request rate and numbers also skyrocketed.
+    So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
+    talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
+    through time and evolution.
+-
+  speaker_id: derick-rethans
+  title: The La(te)st PHP 7 — What's new in PHP 7.4
+  extract: >
+    During this presentation, we are going to look at the new features that have been introduced in PHP 7.4. Join me to
+    have a look at how the type system is strengthened with typed properties and co- and contra-variance of methods,
+    what changes to operator precedence are, and which new features, such as pre-loading classes, are going to be
+    introduced. At the end you will have a good understand about all the new and exciting features in the PHP 7.4
+    release, and a head's up what is coming in PHP 8
+-
   speaker_id: michelle-sanver
   title: "Advanced Serializing in PHP: Speed it up!"
   extract: >
@@ -148,42 +222,36 @@
     the toolset, we need to build some traits in our teams to understand the importance of good code quality and
     keeping it on the level as we go.
 -
-  speaker_id: ondrej-machulda
-  title: End-to-end testing - it has never been easier!
+  speaker_id: alexandra-white
+  title: "Technically Speaking: Improve your code with documentation"
   extract: >
-    Automated end-to-end testing of web application in a real browser is nothing new - [Selenium](https://selenium.dev/),
-    the industry standard for browser automation has been there for a while. But even though not many projects are doing
-    it - the truth is that up until now, it was not that easy: it was hard to write good tests and to set up the testing
-    environment, tests were unstable and cross-browser compatibility (ie. running the same tests in different browsers)
-    was only theoretical. However things moved forward recently: many new tools emerged in the PHP ecosystem (like
-    Symfony Panther, Laravel Dusk or Codeception), Docker virtualization brought the possibility of simplifying the
-    infrastructure needed for running the tests as part of continuous integration pipeline and Selenium has become
-    official W3C WebDriver standard supported by all major browsers. I will show you how to take advantage of these
-    now possibilities (including Docker), how easy it is nowadays to start with end-to-end testing and I will also
-    mention tools you can choose from to do so. Because the golden age of end-to-end testing is finally here!
+    Well written instructions, informative comments throughout code, clearly scripted screencasts, and smart information
+    architecture can take complex code and make it accessible to new developers. In the age of code sharing, this can be
+    imperative to teaching the next generation of developers, passing along your code to successors, and help you better
+    understand your own work. When I was an engineer, helpful READMEs and other docs created by my colleagues were crucial
+    to quick onboarding and coming back to old products. Now, as a full time technical writer, I rely on our engineers
+    to be able to concisely explain how products work. From these experiences, it is essential that developers are
+    empowered to write documentation. In this talk we’ll discuss: + Why writing docs is important for engineers +
+    Understanding your audience + Optimizing for the deliverable: READMEs, code comments, tutorials release notes, and
+    more We’ll also cover some tips for communicating about your past work to your future self.
 -
-  speaker_id: christian-luck
-  title: Getting started with ReactPHP – Pushing real-time data to the browser
+  speaker_id: sabine-wojcieszak
+  title: Don´t lose the heart of Agile and Devops!
   extract: >
-    Think about PHP for a few seconds… What came to mind? It’s very likely you thought about your average product
-    catalog, a blogging platform, or how the platform is inferior to things like Node.js. But wait, it’s 2020! What
-    if I told you PHP’s huge ecosystem has way more to offer and PHP is not inferior at all to its evil cousin Node.js?
-    In this talk you will learn about the core concepts of async PHP and why you too should care about ReactPHP being a
-    real thing. The talk has a strong focus on sparking the idea that PHP can be way faster and more versatile than you
-    probably thought. Bring along an open mind, and through lots of interesting examples and live demos learn why what
-    sounds crazy at first might soon be a valuable addition in your toolbox. You’re already familiar with PHP and want
-    to learn what ReactPHP is all about? Then this talk is for you! We will start from scratch and see what it takes to
-    build an application that pushes data from your command line to your browser in real-time. You’re invited to join
-    the interactive demos or lean back and learn more about why an event-driven approach might be the next big thing in
-    making your application faster and more responsive.
--
-  speaker_id: bruce-dou
-  title: Async and Concurrency with Coroutines
-  extract: >
-    PHP Swoole has gain the traction during the past several years. More and more people are interested with started to
-    try PHP Swoole and use coroutine in PHP to build high performance, large scale web services, online game,
-    micro-services. This talk will introduce how to adopt PHP Swoole in real world projects and solve real world
-    problems better. How to develop concurrent based application with Coroutines.
+    Agile and Devops have become extremely popular during the last years. Especially Agile has also scaled and is not
+    only used in software industries nowadays. The so called VUCA world with its ever-growing complexity as well as the
+    digitization and digital transformation made Agile as well as Devops somehow a “Must have” hype. And that´s good,
+    because using those approaches makes work itself and its outcomes better with more happiness – as long as you have
+    understood the basic ideas behind it. But we need to be careful, as those principles and values get more and more
+    lost – even in software industries! What happens if you ask people if they have ever read the Agile Manifesto with
+    its twelve principles behind? And have you ever asked a team, doing some kind of agile stuff, what those principles
+    mean to them and how they can apply them to their daily work or what CALMS is standing for? As very frequently the
+    answers are “No”, I created an exercise for teams to challenge the Agile Manifesto, its principles and the meaning
+    of CALMS as an ongoing process for retrospectives or as a part of the team or project kick-off. This talk will
+    introduce you to this exercise and the experiences made with it. In Agile but even more in Devops we all strive for
+    having a better understanding of what we are doing – so why not also taking care of understanding Agile and Devops
+    itself just to get out the most possible benefit and saying goodbye to the Agile Theatre or reducing Devops to just
+    having a delivery pipeline?
 -
   speaker_id: boyan-yordanov
   title: REST More With JSON-API
@@ -193,52 +261,3 @@
     inconsistent status codes? What about hypermedia? While new solutions have emerged for specific use cases, what
     if there was a specification that can help you build APIs that are both easier to maintain and to consume? In this
     talk we will explore what makes json:api a good choice and the tools we have available for it.
--
-  speaker_id: ivo-lukac
-  title: Learn to appreciate legacy
-  extract: >
-    There is a lot of frustration among developers when they need to work with the old code, usually called “legacy”.
-    But there is way more legacy code running than non-legacy out there in the world. Developers like starting from
-    scratch but that is not often the case. If they want to successfully replace legacy with newer code they need to
-    start with appreciation and respect for that legacy code because it somehow runs and there is no guarantee that
-    new code will do a better job.
--
-  speaker_id: joao-domingos
-  title: Keeping a 10-Year-Old Codebase Alive and Rockin'
-  extract: >
-    From Commodity Hardware in the closet to 1,000 requests per second: Keeping a 10-Year-Old Codebase Alive and Rockin'
-    Voxnest is an audio technology company, specializing in podcasting solutions. Voxnest’s suite of tools allows
-    publishers and advertisers alike to easily create, distribute, manage and monetize content. One of those tools
-    is Spreaker. The Spreaker platform serves audio files, with dynamically stitched ads, based on targeting settings
-    and a listener’s profile, handling up to 1,000 req/s. Spreaker was founded 10 years ago, and the world has changed
-    dramatically since then. Going from in-house hardware, to the cloud, up to serverless, and through a seamless PHP 7
-    upgrade, the Spreaker team had to solve many issues in order to keep the codebase alive and clean. In addition to
-    those changes, the company grew, the codebase size increased, and the request rate and numbers also skyrocketed.
-    So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
-    talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
-    through time and evolution.
--
-  speaker_id: cristiano-mazzarini
-  title: Keeping a 10-Year-Old Codebase Alive and Rockin'
-  extract: >
-    From Commodity Hardware in the closet to 1,000 requests per second: Keeping a 10-Year-Old Codebase Alive and Rockin'
-    Voxnest is an audio technology company, specializing in podcasting solutions. Voxnest’s suite of tools allows
-    publishers and advertisers alike to easily create, distribute, manage and monetize content. One of those tools
-    is Spreaker. The Spreaker platform serves audio files, with dynamically stitched ads, based on targeting settings
-    and a listener’s profile, handling up to 1,000 req/s. Spreaker was founded 10 years ago, and the world has changed
-    dramatically since then. Going from in-house hardware, to the cloud, up to serverless, and through a seamless PHP 7
-    upgrade, the Spreaker team had to solve many issues in order to keep the codebase alive and clean. In addition to
-    those changes, the company grew, the codebase size increased, and the request rate and numbers also skyrocketed.
-    So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
-    talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
-    through time and evolution.
--
-  speaker_id: mark-baker
-  title: Looping the Loop with SPL Iterators
-  extract: >
-    An often-forgotten part of PHP, just looking at the content list for the Standard PHP Library (SPL) Iterators in the
-    PHP Docs can seem very confusing, and even reading the documentation on those Iterators doesn't really explain when
-    or how they should be used. But it's time to bring SPL Iterators out of the shadows with some real-world examples,
-    explaining how they work, and how they can reduce complexity and improve readability of our code. So join me on a
-    roller-coaster ride as we loop through some of the most useful Iterators in the SPL toolbox, and learn how we can
-    use their power and features to improve our code.
