@@ -9,6 +9,12 @@
 #    twitter: AlessandroLai
 list:
   -
+    id: mark-baker
+    image: mark-baker.jpg
+    first_name: Mark
+    last_name: Baker
+    twitter: Mark_Baker
+  -
     id: arnout-boks
     image: arnout-boks.jpg
     first_name: Arnout

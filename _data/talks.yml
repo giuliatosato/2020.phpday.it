@@ -232,3 +232,13 @@
     So, how did they keep up with the changes? Spreaker’s development team will answer that question, and more, in this
     talk. They'll dive into timing for scale-ups, being late for an upgrade, and how to keep everything running smoothly
     through time and evolution.
+-
+  speaker_id: mark-baker
+  title: Looping the Loop with SPL Iterators
+  extract: >
+    An often-forgotten part of PHP, just looking at the content list for the Standard PHP Library (SPL) Iterators in the
+    PHP Docs can seem very confusing, and even reading the documentation on those Iterators doesn't really explain when
+    or how they should be used. But it's time to bring SPL Iterators out of the shadows with some real-world examples,
+    explaining how they work, and how they can reduce complexity and improve readability of our code. So join me on a
+    roller-coaster ride as we loop through some of the most useful Iterators in the SPL toolbox, and learn how we can
+    use their power and features to improve our code.
