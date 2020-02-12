@@ -48,6 +48,12 @@ list:
     last_name: Holland
     twitter: chrisholland
   -
+    id: andreas-hucks
+    image: andreas-hucks.jpg
+    first_name: Andreas
+    last_name: Hucks
+    twitter: meandmymonkey
+  -
     id: alessandro-lai
     description:
     image: alessandro-lai.jpg

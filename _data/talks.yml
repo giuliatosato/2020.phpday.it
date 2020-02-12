@@ -110,6 +110,15 @@
     * how exceptions allow us to handle errors with less code
     * how exceptions can help us build more robust systems with far less technical debt
 -
+  speaker_id: andreas-hucks
+  title: Symfony 5, the new bits
+  extract: >
+    There are some exciting new things in Symfony 5. Besides removing some deprecations and bumping the PHP version
+    requirements, several components have left the experimental stage. The Mailer & Mime, HttpClient
+    (and why do we need one?), Notifier, String handling, and more. In this talk, we'll look at the new
+    features in depth both from the high level perspective of using them in Symfony full stack, and how you can fit
+    the pieces together and use them in any generic PHP application.
+-
   speaker_id: alessandro-lai
   title: Kubernetes for PHP developers
   extract: >
