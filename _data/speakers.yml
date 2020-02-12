@@ -42,6 +42,12 @@ list:
     last_name: Heigl
     twitter: heiglandreas
   -
+    id: gary-hockin
+    image: gary-hockin.jpg
+    first_name: Gary
+    last_name: Hockin
+    twitter: GeeH
+  -
     id: chris-holland
     image: chris-holland.jpg
     first_name: Chris
