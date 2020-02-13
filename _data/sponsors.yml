@@ -96,3 +96,6 @@ bronze:
     - 2 tickets with 10% discount
   max: 64
   list:
+    -
+      url: https://stickermule.com/supports/grusp20-sponsorship
+      image: stickermule.svg      
