@@ -232,6 +232,12 @@
     could GO beyond PHP, using PHP and GoLang together, for an amazing performance boost.
     (Spoiler alert: We found a solution in PHP that we ended up with, and open sourced)
 -
+  speaker_id: thomas-schedler
+  title: Redis Streams
+  extract: >
+    Redis, the Swiss Army Knife of databases, has a new data type in version 5.0 that’s worth having a closer look at.
+    We look at how Redis Streams help us build fault-tolerant, scalable services.
+-
   speaker_id: miro-svrtan
   title: Tools and traits to keep your code at level
   extract: >

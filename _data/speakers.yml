@@ -123,6 +123,13 @@ list:
     last_name: Sanver
     twitter: michellesanver
   -
+    id: thomas-schedler
+    description:
+    image: thomas-schedler.jpg
+    first_name: Thomas
+    last_name: Schedler
+    twitter: chirimoya
+  -
     id: miro-svrtan
     description:
     image: miro-svrtan.jpg
