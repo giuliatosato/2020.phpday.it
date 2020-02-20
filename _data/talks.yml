@@ -70,6 +70,16 @@
     roller-coaster ride as we loop through some of the most useful Iterators in the SPL toolbox, and learn how we can
     use their power and features to improve our code.
 -
+  speaker_id: antonello-dippolito
+  title: CODE, TEST, DEPLOY, REPEAT
+  extract: >
+    Continuous delivery, deployment, integration: a lot of buzzwords of our times start with "continuous". But do they
+    exist in real life? Or is this just fantasy? In this session, I'll show how real and impactful CI/CD can be by
+    telling you the story of how we are building "continuous stuff" at VONQ. It's a story about tests, pipelines,
+    automation and feature toggles, but, more importantly, about changing mindsets. We'll go through each of the stages
+    - coding, testing, deploying (and delivering) - and we'll find out (spoiler!) why the road to continuous delivery is
+    valuable even if you're not going to deploy in production many times per day.
+-
   speaker_id: joao-domingos
   title: Keeping a 10-Year-Old Codebase Alive and Rockin'
   extract: >

@@ -21,6 +21,13 @@ list:
     last_name: Boks
     twitter: arnoutboks
   -
+    id: antonello-dippolito
+    description:
+    image: antonello-dippolito.jpg
+    first_name: Antonello
+    last_name: D'Ippolito
+    twitter: antodippo
+  -
     id: joao-domingos
     description:
     image: joao-domingos.jpg
