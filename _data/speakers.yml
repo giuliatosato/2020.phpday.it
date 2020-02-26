@@ -42,6 +42,13 @@ list:
     last_name: Dou
     twitter: doubaokun
   -
+    id: wim-godden
+    description:
+    image: wim-godden.jpg
+    first_name: Wim
+    last_name: Godden
+    twitter: wimgtr
+  -
     id: andreas-heigl
     description:
     image: andreas-heigl.jpg

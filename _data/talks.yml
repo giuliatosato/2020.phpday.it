@@ -103,6 +103,14 @@
     micro-services. This talk will introduce how to adopt PHP Swoole in real world projects and solve real world
     problems better. How to develop concurrent based application with Coroutines.
 -
+  speaker_id: wim-godden
+  title: "Beyond PHP: it's not (just) about the code!"
+  extract: >
+    Most PHP developers focus on writing code. But creating Web applications is about much more than just writing PHP.
+    Take a step outside the PHP cocoon and into the big PHP ecosphere to find out how small code changes can make a
+    world of difference on servers and network. This talk is an eye-opener for developers who spend over 80% of their
+    time coding, debugging and testing.
+-
   speaker_id: andreas-heigl
   title: How to tame a 🦄
   extract: >
