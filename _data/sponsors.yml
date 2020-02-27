@@ -98,4 +98,7 @@ bronze:
   list:
     -
       url: https://stickermule.com/supports/grusp20-sponsorship
-      image: stickermule.svg      
+      image: stickermule.svg
+    -
+      url: https://sulu.io/?utm_source=phpday
+      image: sulu.svg
