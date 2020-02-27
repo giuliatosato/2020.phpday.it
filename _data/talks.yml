@@ -238,6 +238,18 @@
     introduced. At the end you will have a good understand about all the new and exciting features in the PHP 7.4
     release, and a head's up what is coming in PHP 8
 -
+  speaker_id: derick-rethans
+  title: Introduction to PHP Extensions
+  extract: >
+    In this presentation, we take a first look at writing PHP extensions. Using step-by-step examples, we'll take a
+    function written in PHP and convert them into a loadable extension using C. We'll then test both versions and
+    compare the results. After seeing the size and scope of the benefits that can be realized with only a few minor
+    changes, you'll want to try it out for yourself. You'll also understand why we start with simple things, and not
+    try to rewrite all of Symfony in C. You will learn:
+      - What PHP extensions are, and which different types there are.
+      - Why you might want to write a PHP extension.
+      - How you write your first PHP extension, with practical tips and tricks.
+-
   speaker_id: michelle-sanver
   title: "Advanced Serializing in PHP: Speed it up!"
   extract: >
