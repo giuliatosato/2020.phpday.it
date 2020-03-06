@@ -79,14 +79,17 @@ silver:
   max: 32
   list:
     -
+      url: https://www.facile.it/?utm_source=phpday
+      image: facile.svg    
+    -
+      url: https://labs.madisoft.it/symfony-developer/?utm_source=phpday
+      image: madisoft.svg      
+    -
       url: https://it.siteground.com/?utm_source=phpday
       image: siteground.svg
     -
       url: https://www.voxnest.com/?utm_source=phpday
       image: voxnest.svg 
-    -
-      url: https://labs.madisoft.it/symfony-developer/?utm_source=phpday
-      image: madisoft.svg 
       
 bronze:
   price: € 500
@@ -102,3 +105,6 @@ bronze:
     -
       url: https://sulu.io/?utm_source=phpday
       image: sulu.svg
+    -
+      url: https://www.vonq.com/?utm_source=phpday
+      image: vonq.svg      
