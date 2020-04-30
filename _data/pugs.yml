@@ -4,6 +4,10 @@ list:
     url: http://bologna.grusp.org/
     image: BO.svg
   -
+    name: PUG Catania
+    url: http://catania.grusp.org/
+    image: CT.svg
+  -
     name: PUG Friuli
     url: http://friuli.grusp.org/
     image: FRIULI.svg
