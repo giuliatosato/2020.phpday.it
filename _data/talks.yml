@@ -24,6 +24,16 @@
     we got ourselves into different sorts of troubles. We will explore what they are and how some of us have chosen to
     overcome them.
 -
+  speaker_id: samantha-quinones
+  keynote: true
+  title: "Pragmatic Optimism: How PHP Conquered the Web"
+  extract: >
+    Though it wasn’t originally conceived as a programming language after nearly a quarter-century PHP stands as one of
+    the most popular languages in the world. Unlike its peers, it was not carefully designed but rather it grew
+    organically under the guidance of a vast cast of contributors. Today, PHP is a serious and capable programming
+    language, and its endurance speaks to the murky place where computer science meets software engineering. Let’s
+    examine its history, how it got here, and where it’s going next.
+-
   speaker_id: arnout-boks
   tutorial: true
   title: Metrics-driven refactoring and quality

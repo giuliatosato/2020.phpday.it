@@ -116,6 +116,13 @@ list:
     last_name: Mazzarini
     twitter: _mazzcris
   -
+    id: samantha-quinones
+    description:
+    image: samantha-quinones.jpg
+    first_name: Samantha
+    last_name: Quiñones
+    twitter: ieatkillerbees
+  -
     id: derick-rethans
     description:
     image: derick-rethans.jpg
