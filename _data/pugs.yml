@@ -1,16 +1,28 @@
 list:
+#  -
+#    name: pugBO
+#    url: http://bologna.grusp.org/
+#    image: BO.svg
   -
-    name: pugBO
-    url: http://bologna.grusp.org/
-    image: BO.svg
+    name: PUG Cagliari
+    url: https://www.meetup.com/it-IT/pugCagliari-PHP-User-Group-Cagliari/
+    image: CA.svg
   -
     name: PUG Catania
     url: http://catania.grusp.org/
     image: CT.svg
+#  -
+#    name: PUG Friuli
+#    url: http://friuli.grusp.org/
+#    image: FRIULI.svg
   -
-    name: PUG Friuli
-    url: http://friuli.grusp.org/
-    image: FRIULI.svg
+    name: PUG Firenze
+    url: https://www.facebook.com/PUGFirenze/
+    image: FI.svg
+  -
+    name: PUG Foggia
+    url: http://foggia.grusp.org
+    image: FG.svg
   -
     name: PUG Milano
     url: http://milano.grusp.org/
@@ -19,6 +31,10 @@ list:
     name: PUG MoRe
     url: http://more.grusp.org/
     image: MORE.svg
+  -
+    name: PUG Pescara
+    url: https://www.meetup.com/it-IT/pugPescara-PHP-User-Group-Pescara/
+    image: PE.svg
   -
     name: PUG Roma
     url: http://roma.grusp.org/
@@ -31,6 +47,10 @@ list:
     name: PUG Rovigo
     url: https://rovigo.grusp.org/
     image: RO.svg
+  -
+    name: PUG Seregno
+    url: https://www.meetup.com/it-IT/pugSeregno-PHP-User-Group-Seregno/
+    image: SEREGNO.svg
   -
     name: PUG Sondrio
     url: https://www.meetup.com/it-IT/pugSondrio-PHP-User-Group-Sondrio/
