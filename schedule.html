@@ -4,66 +4,36 @@ title: Schedule
 
 <div class="limit limit--top-margin">
 
-  {% include schedule/intro.html date='May 10th' %}
+  {% include schedule/intro.html date='Sep 8th' %}
 
-  <div class="schedule" data-dates="5-10">
+  <div class="schedule" data-dates="9-8">
     <table class="schedule__table">
       <thead>
-        {% include schedule/header.html tracks='3' %}
+        {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' fill='true' %}
+        {% include schedule/event.html time='9.45-10.00' title='Intro by GrUSP' fill='true' %}
 
-        {% include schedule/talk.html time='9.45-10.45' title="Welcome to the PHP community" keynote='true' fill='true' %}
+        <tr>{% include schedule/talk.html time='10.00-10.45' title="Things I Wish I Knew When I Started Playing \"Developer\"" keynote='true' fill='true' %}</tr>
+        <tr>{% include schedule/talk.html title="What's new in PHP 8" time='10.45-11.30' %}</tr>
 
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='11.30-11.40' title='Short break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html title="From Helpers to Middleware" time='11.00-12.00' %}
-          {% include schedule/talk.html title='Introducing Laravel Dusk' %}
-          {% include schedule/talk.html title='Develop microservices in PHP' workshop='true' %}
-        </tr>
+        <tr>{% include schedule/talk.html title="Symfony 5, the new bits" time='11.40-12.35' %}</tr>
+        <tr>{% include schedule/talk.html title="Leveraging Typed Exceptions for Cleaner Error Handling" time='12.35-13.20' %}</tr>
 
-        <tr>
-          {% include schedule/talk.html title="Using migrations and fixtures" time='12.00-13.00' %}
-          {% include schedule/talk.html title='From 0 to Continuous Deployments with Kubernetes, Helm and GitLab' %}
-        </tr>
+        {% include schedule/pause.html time='13.20-14.30' title='Lunch' icon="food" fill='true' %}
 
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" fill='true' %}
+        <tr>{% include schedule/talk.html title='Kubernetes for PHP developers' time='14.30-15.15' %}</tr>
+        <tr>{% include schedule/talk.html title='Technically Speaking: Improve your code with documentation' time='15.15-16.00' %}</tr>
 
-        <tr>
-          {% include schedule/talk.html title='Xdebug 3.0' time='14.30-15.30' %}
-          {% include schedule/talk.html title="Advanced Plugin Creation in WordPress" %}
-          {% include schedule/talk.html title='Hack this workshop!' workshop='true' %}
-        </tr>
+        {% include schedule/pause.html time='16.00-16.15' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>
-          {% include schedule/talk.html title='Using the Workflow component for e-commerce' time='15.30-16.30' %}
-          {% include schedule/talk.html title='AssertTrue (isDecoupled("my tests"))' %}
-        </tr>
+        <tr>{% include schedule/talk.html title='Looping the Loop with SPL Iterators' time='16.15-17.00' %}</tr>
+        <tr>{% include schedule/talk.html title="Getting started with ReactPHP – Pushing real-time data to the browser" time='17.00-17.45' %}</tr>
+        <tr>{% include schedule/talk.html title="Pragmatic Optimism: How PHP Conquered the Web" time='17.45-18.30' keynote='true' fill='true' %}</tr>
 
-        {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html title='Hunting down memory leaks with PHP Meminfo' time='17.00-17.30' %}
-          {% include schedule/talk.html title='What are Coding Standards in PHP?' %}
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">PUG Meeting</div>
-          </td>
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title="Async non-blocking code reviews" time='17.30-18.00' %}
-          {% include schedule/talk.html title="Open Close Principle, is it what you thought?" %}
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">PUG Meeting</div>
-          </td>
-        </tr>
-
-        {% include schedule/pause.html time='18.00-19.00' title='Happy hour' icon="bar" fill='true' %}
-        {% include schedule/pause.html time='20.00-24.00' title='Party' icon="food" fill='true' %}
-
+        {% include schedule/event.html time='18.30-18.45' title='Goodbye from GrUSP' fill='true' %}
       </tbody>
     </table>
   </div>
@@ -74,294 +44,31 @@ title: Schedule
         {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' %}
+        {% include schedule/event.html time='9.45-10.00' title='Intro by GrUSP' fill='true' %}
 
-        {% include schedule/talk.html time='9.45-10.45' title="Welcome to the PHP community" keynote='true' fill='true' %}
+        <tr>{% include schedule/talk.html time='10.00-10.45' title="Things I Wish I Knew When I Started Playing \"Developer\"" keynote='true' fill='true' %}</tr>
+        <tr>{% include schedule/talk.html title="What's new in PHP 8" time='10.45-11.30' %}</tr>
 
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" %}
+        {% include schedule/pause.html time='11.30-11.40' title='Short break' icon="coffee" fill='true' %}
 
-        <tr>{% include schedule/talk.html time='11.00-12.00' title='From Helpers to Middleware' %}</tr>
-        <tr>{% include schedule/talk.html time='12.00-13.00' title='Using migrations and fixtures' %}</tr>
+        <tr>{% include schedule/talk.html title="Symfony 5, the new bits" time='11.40-12.35' %}</tr>
+        <tr>{% include schedule/talk.html title="Leveraging Typed Exceptions for Cleaner Error Handling" time='12.35-13.20' %}</tr>
 
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" %}
+        {% include schedule/pause.html time='13.20-14.30' title='Lunch' icon="food" fill='true' %}
 
-        <tr>{% include schedule/talk.html time='14.30-15.30' title='Xdebug 3.0' %}</tr>
-        <tr>{% include schedule/talk.html time='15.30-16.30' title='Using the Workflow component for e-commerce' %}</tr>
+        <tr>{% include schedule/talk.html title='Kubernetes for PHP developers' time='14.30-15.15' %}</tr>
+        <tr>{% include schedule/talk.html title='Technically Speaking: Improve your code with documentation' time='15.15-16.00' %}</tr>
 
-        {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" %}
+        {% include schedule/pause.html time='16.00-16.15' title='Coffee break' icon="coffee" fill='true' %}
 
-        <tr>{% include schedule/talk.html time='17.00-17.30' title='Hunting down memory leaks with PHP Meminfo' %}</tr>
-        <tr>{% include schedule/talk.html time='17.30-18.00' title="Async non-blocking code reviews" %}</tr>
+        <tr>{% include schedule/talk.html title='Looping the Loop with SPL Iterators' time='16.15-17.00' %}</tr>
+        <tr>{% include schedule/talk.html title="Getting started with ReactPHP – Pushing real-time data to the browser" time='17.00-17.45' %}</tr>
+        <tr>{% include schedule/talk.html title="Pragmatic Optimism: How PHP Conquered the Web" time='17.45-18.30' keynote='true' fill='true' %}</tr>
 
-        {% include schedule/pause.html time='18.00-18.45' title='Happy hour' icon="bar" fill='true' %}
-        {% include schedule/pause.html time='20.00-24.00' title='Party' icon="food" fill='true' %}
-
-      </tbody>
-    </table>
-    <table class="schedule__table">
-      <thead>
-        {% include schedule/header.html track='2' %}
-      </thead>
-      <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' %}
-
-        {% include schedule/talk.html time='9.45-10.45' title="Welcome to the PHP community" keynote='true' fill='true' %}
-
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='11.00-12.00' title='Introducing Laravel Dusk' %}</tr>
-        <tr>{% include schedule/talk.html time='12.00-13.00' title='From 0 to Continuous Deployments with Kubernetes, Helm and GitLab' %}</tr>
-
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" %}
-
-        <tr>{% include schedule/talk.html time='14.30-15.30' title='Advanced Plugin Creation in WordPress' %}</tr>
-        <tr>{% include schedule/talk.html time='15.30-16.30' title='AssertTrue (isDecoupled("my tests"))' %}</tr>
-
-        {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='17.00-17.30' title='What are Coding Standards in PHP?' %}</tr>
-        <tr>{% include schedule/talk.html time='17.30-18.00' title='Open Close Principle, is it what you thought?' %}</tr>
-
-        {% include schedule/pause.html time='18.00-18.45' title='Happy hour' icon="bar" fill='true' %}
-        {% include schedule/pause.html time='20.00-24.00' title='Party' icon="food" fill='true' %}
-
-      </tbody>
-    </table>
-    <table class="schedule__table">
-      <thead>
-        {% include schedule/header.html track='3' %}
-      </thead>
-      <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' %}
-
-        {% include schedule/talk.html time='9.45-10.45' title="Welcome to the PHP community" keynote='true' fill='true' %}
-
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='11.00-13.00' title='Develop microservices in PHP' %}</tr>
-
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" %}
-
-        <tr>{% include schedule/talk.html time='14.30-16.30' title='Hack this workshop!' %}</tr>
-
-        {% include schedule/pause.html time='16.30-17.00' title='Coffee break' icon="coffee" %}
-
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">17.00-17.30</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">PUG Meeting</div>
-          </td>
-        </tr>
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">17.30-18.00</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">PUG Meeting</div>
-          </td>
-        </tr>
-
-        {% include schedule/pause.html time='18.00-18.45' title='Happy hour' icon="bar" fill='true' %}
-        {% include schedule/pause.html time='20.00-24.00' title='Party' icon="food" fill='true' %}
-
+        {% include schedule/event.html time='18.30-18.45' title='Goodbye from GrUSP' fill='true' %}
       </tbody>
     </table>
   </div>
-
-
-
-
-
-
-
-
-
-
-  {% include schedule/intro.html date='May 11th' %}
-
-  <div class="schedule" data-dates="5-11">
-    <table class="schedule__table">
-      <thead>
-        {% include schedule/header.html tracks='3' %}
-      </thead>
-      <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' fill='true' %}
-
-        {% include schedule/talk.html time='9.45-10.45' title="Software Management Lessons from the 1960s" keynote='true' fill='true' %}
-
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html title='Efficient Domain-Driven Design: An Introduction to Event Storming' time='11.00-12.00' %}
-          {% include schedule/talk.html title='Handling Exceptional Conditions with Grace and Style' %}
-          {% include schedule/talk.html title='PHP Internals Deep Dive' workshop='true' %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Serverless PHP applications with Bref' time='12.00-13.00' %}
-          {% include schedule/talk.html title='Of representation and interpretation: A unified theory' %}
-        </tr>
-
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html title="MySQL 8.0 - Not Only Good, it's GREAT" time='14.30-15.30' %}
-          {% include schedule/talk.html title='Microservices within a Monolith' %}
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">PHP-FIG Meeting</div>
-          </td>
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Backwards Incompatible Tales' time='15.30-16.30' %}
-          {% include schedule/talk.html title="Docker: Multi-Stage and Multi-Environment" %}
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">Unconference</div>
-          </td>
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title="Let's get meta! What the data from the joind.in API can teach us about the PHP community" time='16.30-17.00' %}
-          {% include schedule/talk.html title='Instant Upgrades with Rector' %}
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">Unconference</div>
-          </td>
-        </tr>
-
-        {% include schedule/pause.html time='17.00-17.30' title='Coffee break' icon="coffee" fill='true' %}
-
-        {% include schedule/talk.html time='17.30-18.30' title="25 Years of PHP" keynote='true' fill='true' %}
-
-        {% include schedule/pause.html time='18.30-18.45' title='Ciao dal GrUSP' icon="bar" fill='true' %}
-
-      </tbody>
-    </table>
-  </div>
-
-  <div class="schedule schedule--mobile" data-dates="5-11">
-    <table class="schedule__table">
-      <thead>
-        {% include schedule/header.html track='1' %}
-      </thead>
-      <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' %}
-
-        <tr>{% include schedule/talk.html time='9.45-10.45' title="Software Management Lessons from the 1960s" keynote='true' %}</tr>
-
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='11.00-12.00' title='Efficient Domain-Driven Design: An Introduction to Event Storming' %}</tr>
-        <tr>{% include schedule/talk.html time='12.00-13.00' title='Serverless PHP applications with Bref' %}</tr>
-
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" %}
-
-        <tr>
-          {% include schedule/talk.html time='14.30-15.30' title="MySQL 8.0 - Not Only Good, it's GREAT" %}
-        </tr>
-        <tr>{% include schedule/talk.html time='15.30-16.30' title='Backwards Incompatible Tales' %}</tr>
-        <tr>{% include schedule/talk.html time='16.30-17.00' title="Let's get meta! What the data from the joind.in API can teach us about the PHP community" %}</tr>
-
-        {% include schedule/pause.html time='17.00-17.30' title='Coffee break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='17.30-18.30' title="25 Years of PHP" %}</tr>
-
-        {% include schedule/pause.html time='18.30-18.45' title='Ciao dal GrUSP' icon="bar" fill='true' %}
-
-      </tbody>
-    </table>
-    <table class="schedule__table">
-      <thead>
-        {% include schedule/header.html track='2' %}
-      </thead>
-      <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' %}
-
-        <tr>{% include schedule/talk.html time='9.45-10.45' title="Software Management Lessons from the 1960s" keynote='true' %}</tr>
-
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='11.00-12.00' title='Handling Exceptional Conditions with Grace and Style' %}</tr>
-        <tr>{% include schedule/talk.html time='12.00-13.00' title='Of representation and interpretation: A unified theory' %}</tr>
-
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" %}
-
-        <tr>{% include schedule/talk.html time='14.30-15.30' title='Microservices within a Monolith' %}</tr>
-        <tr>{% include schedule/talk.html time='15.30-16.30' title="Docker: Multi-Stage and Multi-Environment" %}</tr>
-        <tr>{% include schedule/talk.html time='16.30-17.00' title='Instant Upgrades with Rector' %}</tr>
-
-        {% include schedule/pause.html time='17.00-17.30' title='Coffee break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='17.30-18.30' title="25 Years of PHP" %}</tr>
-
-        {% include schedule/pause.html time='18.30-18.45' title='Ciao dal GrUSP' icon="bar" fill='true' %}
-
-      </tbody>
-    </table>
-    <table class="schedule__table">
-      <thead>
-        {% include schedule/header.html track='3' %}
-      </thead>
-      <tbody>
-        {% include schedule/event.html time='8.30-9.30' title='Check-in' %}
-        {% include schedule/event.html time='9.30-9.45' title='Intro by GrUSP' %}
-
-        <tr>{% include schedule/talk.html time='9.45-10.45' title="Software Management Lessons from the 1960s" keynote='true' %}</tr>
-
-        {% include schedule/pause.html time='10.45-11.00' title='Short break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='11.00-13.00' title='PHP Internals Deep Dive' %}</tr>
-
-        {% include schedule/pause.html time='13.00-14.30' title='Lunch' icon="food" %}
-
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">14.30-15.30</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">PHP-FIG Meeting</div>
-          </td>
-        </tr>
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">15.30-16.30</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">Unconference</div>
-          </td>
-        </tr>
-        <tr>
-          <td class="schedule__cell schedule__cell--time">
-            <span class="schedule__time">16.30-17.00</span>
-            <span class="schedule__on-air">on air</span>
-          </td>
-          <td class="schedule__cell schedule__cell--event">
-            <div class="schedule__title">Unconference</div>
-          </td>
-        </tr>
-
-        {% include schedule/pause.html time='17.00-17.30' title='Coffee break' icon="coffee" %}
-
-        <tr>{% include schedule/talk.html time='17.30-18.30' title="25 Years of PHP" %}</tr>
-
-        {% include schedule/pause.html time='18.30-18.45' title='Ciao dal GrUSP' icon="bar" fill='true' %}
-
-      </tbody>
-    </table>
-  </div>
-
-
 </div>
 
 {% include index/newsletter.html %}
