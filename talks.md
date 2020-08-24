@@ -14,7 +14,7 @@ title: Talks
 
   <div class="talks-intro">
     <h2 class="talks-intro__date">
-      September 8th-9th
+      September 8th
     </h2>
   </div>
 
